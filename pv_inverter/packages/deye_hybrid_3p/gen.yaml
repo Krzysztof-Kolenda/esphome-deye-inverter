@@ -23,8 +23,8 @@ sensor:
     device_class: energy
     state_class: "total_increasing"
     accuracy_decimals: 1
-    filters:
-      - multiply: 0.1
+    #filters:
+    #  - multiply: 0.1
     value_type: U_WORD
     icon: "mdi:generator-portable"
 
