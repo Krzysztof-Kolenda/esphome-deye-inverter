@@ -33,7 +33,8 @@ api:
     - delay: ${safe_mode_delay}
     - if:
         condition:
-          not: api.connected
+          not: 
+            api.connected
         then:
           - logger.log: "Lost connection to HomeAssistant API - Activating safe mode"
           - script.execute: set_safe_modbus_registers
