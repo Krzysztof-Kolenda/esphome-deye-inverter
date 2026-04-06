@@ -33,7 +33,7 @@ api:
     - delay: ${safe_mode_delay}
     - if:
         condition:
-          not: 
+          not:
             api.connected
         then:
           - logger.log: "Lost connection to HomeAssistant API - Activating safe mode"
