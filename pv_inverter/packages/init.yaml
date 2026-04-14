@@ -20,7 +20,7 @@ esphome:
   friendly_name: "${friendly_name}"
   comment: "${device_description} "
   project:
-    name: "Deye-HV"
+    name: "Krzysztof-Kolenda.Deye-HV"
     version: "0.12.0"
 
 logger:
